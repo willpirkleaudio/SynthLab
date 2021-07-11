@@ -1,0 +1,46 @@
+var synthbase_8h =
+[
+    [ "DelayLine", "class_synth_lab_1_1_delay_line.html", "class_synth_lab_1_1_delay_line" ],
+    [ "_MATH_DEFINES_DEFINED", "synthbase_8h.html#a9d6a15dea740ba397bf5d6a6049af0b2", null ],
+    [ "LPF1", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12daa64d566aadd2d6f4dedcc9ccac684b8e", null ],
+    [ "LPF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da203c8236ddf28cdc363d903e593d1628", null ],
+    [ "LPF3", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dab33a8ce53c331adb1cd9425169335f1a", null ],
+    [ "LPF4", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da5547c02a04f2b853b60597f44841b382", null ],
+    [ "HPF1", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12daebf7b719c5d79a183bca5665f9d50fed", null ],
+    [ "HPF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dae55c257ceae38b2c93444951ab4bd533", null ],
+    [ "HPF3", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da2235c6dc449c59d775b14aafeaaa2213", null ],
+    [ "HPF4", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dafdeebf37662b2fa4064635e63fc233e1", null ],
+    [ "BPF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da37f03dc5854019c960065ea202037e3f", null ],
+    [ "BPF4", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dae6d7681e299dee6b9fe9e1fffd1fb6db", null ],
+    [ "BSF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dabf44305d763cd05f2fa42a739ae3864e", null ],
+    [ "BSF4", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da6f10e48454fded7375dc738dd83839ce", null ],
+    [ "APF1", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dafd026496499f0d3839a43d8ab58ae28a", null ],
+    [ "APF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da55727e1cc06a6bc0c6c20f0a3d3ba8d2", null ],
+    [ "ANM_LPF1", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12dae303da55c1edd4a96918540a0919ba56", null ],
+    [ "ANM_LPF2", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da321e8f217d9c4a722858221c923a7c24", null ],
+    [ "ANM_LPF3", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da3a9600e856b7e365c156db9d3f9c1966", null ],
+    [ "ANM_LPF4", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da1500bb918bfbb97e5db3ef5d45db9bb2", null ],
+    [ "NUM_FILTER_OUTPUTS", "synthbase_8h.html#gga90f2b5a9f1332e7af479b6eea205c12da1149e631607ac79669b5940bc6d4b676", null ],
+    [ "PluckFilterType", "synthbase_8h.html#ga24cdbd4f1cfb3fd3621202c10bb20d94", [
+      [ "kPluck", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94ae7780968c936d4ba43b4424ddf025800", null ],
+      [ "kPluckAndBridge", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94afcd92b94ba5ab44db6c7abf75a19309d", null ],
+      [ "kPickup", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94a68f2dff9e53aa6dc37ac4877e754b0ed", null ],
+      [ "kPluckAndPickup", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94a8cd9c69fe8f17044292887fbad6f9fd3", null ],
+      [ "kBridge", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94a01bb850431dbf69b4cc660f93f32e0e6", null ],
+      [ "kPluckPickupBridge", "synthbase_8h.html#gga24cdbd4f1cfb3fd3621202c10bb20d94a89704f8bf952f4669422f39445de8f98", null ]
+    ] ],
+    [ "SampleLoopMode", "synthbase_8h.html#gabb8848e63c439708b0862dc8b8fd83f3", [
+      [ "loop", "synthbase_8h.html#ggabb8848e63c439708b0862dc8b8fd83f3ae48b981fb62db33b98a27fc6cf8bf40a", null ],
+      [ "sustain", "synthbase_8h.html#ggabb8848e63c439708b0862dc8b8fd83f3a02bc1150d41a4dfdc324849c25dce148", null ],
+      [ "oneShot", "synthbase_8h.html#ggabb8848e63c439708b0862dc8b8fd83f3aeb88d5ed1d3edfeecefb2e2a0b10249d", null ]
+    ] ],
+    [ "doLinearInterp", "synthbase_8h.html#gaa2ed959a39e0b8fc1f65eb6424e1fe85", null ],
+    [ "DIODE_Q_SLOPE", "synthbase_8h.html#ga7f73026681f4f16dcb09744f4f9ebda6", null ],
+    [ "GUI_Q_MAX", "synthbase_8h.html#ga03ea5981abc957b8cefdda9afb3fb415", null ],
+    [ "GUI_Q_MIN", "synthbase_8h.html#ga83eac8a76e5f6d6e27875f90c5eb1f90", null ],
+    [ "HSYNC_MOD_SLOPE", "synthbase_8h.html#ga663db6e49c0f2238f443f1c5250261e4", null ],
+    [ "kDefaultWaveTableLength", "synthbase_8h.html#ga0b6c7c5f818927c8ceeef892ee7e8263", null ],
+    [ "KORG35_Q_SLOPE", "synthbase_8h.html#gafe398fbaf49f7d154383265d1087ff48", null ],
+    [ "MOOG_Q_SLOPE", "synthbase_8h.html#ga51775064ee1dd42f1aedde3b1d6f1eb2", null ],
+    [ "SVF_Q_SLOPE", "synthbase_8h.html#ga8b79a9daf064badbe85f80cc911c2e7f", null ]
+];

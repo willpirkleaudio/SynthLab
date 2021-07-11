@@ -1,0 +1,14 @@
+# ---- SynthLab Plugin SDK -----------------------------------------------------
+By Will Pirkle Copyright (C) Tritone Systems, Inc 2004-2021
+www.willpirkle.com
+# ------------------------------------------------------------------------------
+
+#define SynthLab_VERSION_MAJOR  1
+#define SynthLab_VERSION_MINOR  2
+#define SynthLab_VERSION_BUILD  5
+
+Release Notes 1.2.5:
+* Initial public release to coincide with book 
+* Earlier revisions were for students at U Miami only
+
+

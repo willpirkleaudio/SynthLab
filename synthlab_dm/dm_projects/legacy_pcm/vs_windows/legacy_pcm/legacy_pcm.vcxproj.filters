@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="module_core">
+      <UniqueIdentifier>{94a530ed-163f-41cf-aaff-779c3ed065c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk_files">
+      <UniqueIdentifier>{0c838a54-2f39-4ac2-828b-d74cc27f179e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\synthlabcore.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\synthlabdll.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk_files\basiclookuptables.cpp">
+      <Filter>sdk_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk_files\pcmsample.cpp">
+      <Filter>sdk_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk_files\synthbase.cpp">
+      <Filter>sdk_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\synthlabcore.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\synthlabdll.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\basiclookuptables.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\bleptables.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\pcmsample.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthbase.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthconstants.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthfunctions.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthlabparams.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthlabpcmsource.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthstructures.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

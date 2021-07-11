@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vao_core", "vao_core\vao_core.vcxproj", "{915DAC26-381A-4705-AA77-988135ACC08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Debug|x64.ActiveCfg = Debug|x64
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Debug|x64.Build.0 = Debug|x64
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Debug|x86.ActiveCfg = Debug|Win32
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Debug|x86.Build.0 = Debug|Win32
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Release|x64.ActiveCfg = Release|x64
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Release|x64.Build.0 = Release|x64
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Release|x86.ActiveCfg = Release|Win32
+		{915DAC26-381A-4705-AA77-988135ACC08D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9353E36-87B8-437D-B70B-406422491557}
+	EndGlobalSection
+EndGlobal

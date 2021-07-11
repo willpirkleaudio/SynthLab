@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1EC456A266C0A48001D2DDB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EC4569266C0A48001D2DDB /* CoreFoundation.framework */; };
+		C1EC456C266C0A5E001D2DDB /* dx_eg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1EC455F266C0A2D001D2DDB /* dx_eg.dylib */; };
+		C1EC4573266C0A74001D2DDB /* synthlabdll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1EC456F266C0A74001D2DDB /* synthlabdll.cpp */; };
+		C1EC4574266C0A74001D2DDB /* synthlabcore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1EC4570266C0A74001D2DDB /* synthlabcore.cpp */; };
+		C1EC4575266C0A74001D2DDB /* synthlabcore.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4571266C0A74001D2DDB /* synthlabcore.h */; };
+		C1EC4576266C0A74001D2DDB /* synthlabdll.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4572266C0A74001D2DDB /* synthlabdll.h */; };
+		C1EC4582266C0AAF001D2DDB /* basiclookuptables.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4578266C0AAF001D2DDB /* basiclookuptables.h */; };
+		C1EC4583266C0AAF001D2DDB /* bleptables.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4579266C0AAF001D2DDB /* bleptables.h */; };
+		C1EC4584266C0AAF001D2DDB /* synthconstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC457A266C0AAF001D2DDB /* synthconstants.h */; };
+		C1EC4585266C0AAF001D2DDB /* synthlabparams.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC457B266C0AAF001D2DDB /* synthlabparams.h */; };
+		C1EC4586266C0AAF001D2DDB /* synthbase.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC457C266C0AAF001D2DDB /* synthbase.h */; };
+		C1EC4587266C0AAF001D2DDB /* synthbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1EC457D266C0AAF001D2DDB /* synthbase.cpp */; };
+		C1EC4588266C0AAF001D2DDB /* synthfunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC457E266C0AAF001D2DDB /* synthfunctions.h */; };
+		C1EC4589266C0AAF001D2DDB /* basiclookuptables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1EC457F266C0AAF001D2DDB /* basiclookuptables.cpp */; };
+		C1EC458A266C0AAF001D2DDB /* synthlabpcmsource.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4580266C0AAF001D2DDB /* synthlabpcmsource.h */; };
+		C1EC458B266C0AAF001D2DDB /* synthstructures.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EC4581266C0AAF001D2DDB /* synthstructures.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1EC456B266C0A52001D2DDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SRCROOT)/../../../dm_modules/x64/SynthLabModules/macos/egs";
+			dstSubfolderSpec = 0;
+			files = (
+				C1EC456C266C0A5E001D2DDB /* dx_eg.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1EC455F266C0A2D001D2DDB /* dx_eg.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = dx_eg.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EC4569266C0A48001D2DDB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C1EC456F266C0A74001D2DDB /* synthlabdll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthlabdll.cpp; path = ../source/synthlabdll.cpp; sourceTree = "<group>"; };
+		C1EC4570266C0A74001D2DDB /* synthlabcore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthlabcore.cpp; path = ../source/synthlabcore.cpp; sourceTree = "<group>"; };
+		C1EC4571266C0A74001D2DDB /* synthlabcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthlabcore.h; path = ../source/synthlabcore.h; sourceTree = "<group>"; };
+		C1EC4572266C0A74001D2DDB /* synthlabdll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthlabdll.h; path = ../source/synthlabdll.h; sourceTree = "<group>"; };
+		C1EC4578266C0AAF001D2DDB /* basiclookuptables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basiclookuptables.h; path = ../../../sdk_files/basiclookuptables.h; sourceTree = "<group>"; };
+		C1EC4579266C0AAF001D2DDB /* bleptables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bleptables.h; path = ../../../sdk_files/bleptables.h; sourceTree = "<group>"; };
+		C1EC457A266C0AAF001D2DDB /* synthconstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthconstants.h; path = ../../../sdk_files/synthconstants.h; sourceTree = "<group>"; };
+		C1EC457B266C0AAF001D2DDB /* synthlabparams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthlabparams.h; path = ../../../sdk_files/synthlabparams.h; sourceTree = "<group>"; };
+		C1EC457C266C0AAF001D2DDB /* synthbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthbase.h; path = ../../../sdk_files/synthbase.h; sourceTree = "<group>"; };
+		C1EC457D266C0AAF001D2DDB /* synthbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = synthbase.cpp; path = ../../../sdk_files/synthbase.cpp; sourceTree = "<group>"; };
+		C1EC457E266C0AAF001D2DDB /* synthfunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthfunctions.h; path = ../../../sdk_files/synthfunctions.h; sourceTree = "<group>"; };
+		C1EC457F266C0AAF001D2DDB /* basiclookuptables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = basiclookuptables.cpp; path = ../../../sdk_files/basiclookuptables.cpp; sourceTree = "<group>"; };
+		C1EC4580266C0AAF001D2DDB /* synthlabpcmsource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthlabpcmsource.h; path = ../../../sdk_files/synthlabpcmsource.h; sourceTree = "<group>"; };
+		C1EC4581266C0AAF001D2DDB /* synthstructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthstructures.h; path = ../../../sdk_files/synthstructures.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1EC455D266C0A2D001D2DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EC456A266C0A48001D2DDB /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1EC4556266C0A2D001D2DDB = {
+			isa = PBXGroup;
+			children = (
+				C1EC456E266C0A68001D2DDB /* module_core */,
+				C1EC456D266C0A63001D2DDB /* sdk_files */,
+				C1EC4560266C0A2D001D2DDB /* Products */,
+				C1EC4568266C0A48001D2DDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1EC4560266C0A2D001D2DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC455F266C0A2D001D2DDB /* dx_eg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1EC4568266C0A48001D2DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC4569266C0A48001D2DDB /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1EC456D266C0A63001D2DDB /* sdk_files */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC457F266C0AAF001D2DDB /* basiclookuptables.cpp */,
+				C1EC4578266C0AAF001D2DDB /* basiclookuptables.h */,
+				C1EC4579266C0AAF001D2DDB /* bleptables.h */,
+				C1EC457D266C0AAF001D2DDB /* synthbase.cpp */,
+				C1EC457C266C0AAF001D2DDB /* synthbase.h */,
+				C1EC457A266C0AAF001D2DDB /* synthconstants.h */,
+				C1EC457E266C0AAF001D2DDB /* synthfunctions.h */,
+				C1EC457B266C0AAF001D2DDB /* synthlabparams.h */,
+				C1EC4580266C0AAF001D2DDB /* synthlabpcmsource.h */,
+				C1EC4581266C0AAF001D2DDB /* synthstructures.h */,
+			);
+			name = sdk_files;
+			sourceTree = "<group>";
+		};
+		C1EC456E266C0A68001D2DDB /* module_core */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC4570266C0A74001D2DDB /* synthlabcore.cpp */,
+				C1EC4571266C0A74001D2DDB /* synthlabcore.h */,
+				C1EC456F266C0A74001D2DDB /* synthlabdll.cpp */,
+				C1EC4572266C0A74001D2DDB /* synthlabdll.h */,
+			);
+			name = module_core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1EC455B266C0A2D001D2DDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EC4583266C0AAF001D2DDB /* bleptables.h in Headers */,
+				C1EC458A266C0AAF001D2DDB /* synthlabpcmsource.h in Headers */,
+				C1EC4584266C0AAF001D2DDB /* synthconstants.h in Headers */,
+				C1EC4576266C0A74001D2DDB /* synthlabdll.h in Headers */,
+				C1EC4585266C0AAF001D2DDB /* synthlabparams.h in Headers */,
+				C1EC458B266C0AAF001D2DDB /* synthstructures.h in Headers */,
+				C1EC4575266C0A74001D2DDB /* synthlabcore.h in Headers */,
+				C1EC4588266C0AAF001D2DDB /* synthfunctions.h in Headers */,
+				C1EC4586266C0AAF001D2DDB /* synthbase.h in Headers */,
+				C1EC4582266C0AAF001D2DDB /* basiclookuptables.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1EC455E266C0A2D001D2DDB /* dx_eg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1EC4563266C0A2D001D2DDB /* Build configuration list for PBXNativeTarget "dx_eg" */;
+			buildPhases = (
+				C1EC455B266C0A2D001D2DDB /* Headers */,
+				C1EC455C266C0A2D001D2DDB /* Sources */,
+				C1EC455D266C0A2D001D2DDB /* Frameworks */,
+				C1EC456B266C0A52001D2DDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dx_eg;
+			productName = dxEG;
+			productReference = C1EC455F266C0A2D001D2DDB /* dx_eg.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1EC4557266C0A2D001D2DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C1EC455E266C0A2D001D2DDB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C1EC455A266C0A2D001D2DDB /* Build configuration list for PBXProject "dx_eg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1EC4556266C0A2D001D2DDB;
+			productRefGroup = C1EC4560266C0A2D001D2DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1EC455E266C0A2D001D2DDB /* dx_eg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1EC455C266C0A2D001D2DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EC4573266C0A74001D2DDB /* synthlabdll.cpp in Sources */,
+				C1EC4589266C0AAF001D2DDB /* basiclookuptables.cpp in Sources */,
+				C1EC4574266C0A74001D2DDB /* synthlabcore.cpp in Sources */,
+				C1EC4587266C0AAF001D2DDB /* synthbase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1EC4561266C0A2D001D2DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1EC4562266C0A2D001D2DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1EC4564266C0A2D001D2DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1EC4565266C0A2D001D2DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1EC455A266C0A2D001D2DDB /* Build configuration list for PBXProject "dx_eg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1EC4561266C0A2D001D2DDB /* Debug */,
+				C1EC4562266C0A2D001D2DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1EC4563266C0A2D001D2DDB /* Build configuration list for PBXNativeTarget "dx_eg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1EC4564266C0A2D001D2DDB /* Debug */,
+				C1EC4565266C0A2D001D2DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1EC4557266C0A2D001D2DDB /* Project object */;
+}

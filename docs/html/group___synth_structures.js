@@ -1,0 +1,446 @@
+var group___synth_structures =
+[
+    [ "RIFF_CHUNK", "struct_synth_lab_1_1_r_i_f_f___c_h_u_n_k.html", [
+      [ "dwLength", "struct_synth_lab_1_1_r_i_f_f___c_h_u_n_k.html#a4d066897f4aa502b25e33dd4b6190cd7", null ],
+      [ "IdentifierString", "struct_synth_lab_1_1_r_i_f_f___c_h_u_n_k.html#a0f09b6680563041892382dcea75d2e6a", null ]
+    ] ],
+    [ "WAVE_FILE_HEADER", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html", [
+      [ "dwAvgBytesPerSec", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#a20e18f32d6f81a6526f31b9ee7338b26", null ],
+      [ "dwSamplesPerSec", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#adfa56e10078c71bc0f9b29e0e47e58a4", null ],
+      [ "wBitsPerSample", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#ae68c9dbbe7b2e1c2d0e1b115a9410856", null ],
+      [ "wBlockAlign", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#a9a9cfb645294e65c0657807ac6e66a12", null ],
+      [ "wChannels", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#a50d0fa5d57e651991e4343830aadc0c4", null ],
+      [ "wFormatTag", "struct_synth_lab_1_1_w_a_v_e___f_i_l_e___h_e_a_d_e_r.html#a057b9a12e2c7d6b76548bb4bc2636f66", null ]
+    ] ],
+    [ "WAVEFORMATEX_WP", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html", [
+      [ "cbSize", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#ab529ff1ea66c2d0fa47a730108d93846", null ],
+      [ "nAvgBytesPerSec", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#a287e4a98bff768004778644443b9f06b", null ],
+      [ "nBlockAlign", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#a333388ffdb22f75cc79b81239e6691d5", null ],
+      [ "nChannels", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#a5c079f5cb565d831a805e0932a45b5df", null ],
+      [ "nSamplesPerSec", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#a629761f29fd9e02344be7a4e77dde2ba", null ],
+      [ "wBitsPerSample", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#a46c62eb3adf88a04b1f597032e7c2d32", null ],
+      [ "wFormatTag", "struct_synth_lab_1_1_w_a_v_e_f_o_r_m_a_t_e_x___w_p.html#ae79b2276c9c59381d221eabc80c2afd1", null ]
+    ] ],
+    [ "WAVE_SAMPLE", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html", [
+      [ "bPlaying", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#aa17dd4dab3022cc742d99a549b6fef19", null ],
+      [ "dwId", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#ad7267ea1f6a4290e5153e3314e35046b", null ],
+      [ "Index", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#a09bcbe53f969ecae1b9db6f407faf995", null ],
+      [ "pSampleData", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#a9b411cea180ad804d050e95f89cf8f80", null ],
+      [ "Size", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#a85095222b369075526ffd9a625a115d3", null ],
+      [ "WaveFormatEx", "struct_synth_lab_1_1_w_a_v_e___s_a_m_p_l_e.html#af2cc095f915af9d0929a31e64f359351", null ]
+    ] ],
+    [ "convertUpper", "struct_synth_lab_1_1convert_upper.html", [
+      [ "operator()", "struct_synth_lab_1_1convert_upper.html#a3a07f213070db47920e1b6a818d59179", null ]
+    ] ],
+    [ "DMConfig", "struct_synth_lab_1_1_d_m_config.html", [
+      [ "analog_fgn_filters", "struct_synth_lab_1_1_d_m_config.html#a96dfa95207693a9a54764793e3c935c2", null ],
+      [ "dm_build", "struct_synth_lab_1_1_d_m_config.html#aef112dde877c33cd781df631e00fb879", null ],
+      [ "dual_mono_filters", "struct_synth_lab_1_1_d_m_config.html#a43a8f5517fc00e2987df249bb9b4384b", null ],
+      [ "half_sample_set", "struct_synth_lab_1_1_d_m_config.html#a2544f45d467c7465479943139e344d77", null ],
+      [ "parameterSmoothing", "struct_synth_lab_1_1_d_m_config.html#ad921734b975fcd2a5a30e7bf8bcd7315", null ],
+      [ "reduced_unison_count", "struct_synth_lab_1_1_d_m_config.html#a3c5138d4f387b8cf6e2329e8bd576c83", null ]
+    ] ],
+    [ "LaneStep", "struct_synth_lab_1_1_lane_step.html", [
+      [ "LaneStep", "struct_synth_lab_1_1_lane_step.html#adac7e0a4ff9200bb7f1494123bb4cc67", null ],
+      [ "getIsNULLStep", "struct_synth_lab_1_1_lane_step.html#ad81bf9a4da311efe6b8cd5f9fd3fdf5a", null ],
+      [ "getNextStepIndex", "struct_synth_lab_1_1_lane_step.html#a842999cd2c33611663ff7764cb790a4f", null ],
+      [ "getPreviousStepIndex", "struct_synth_lab_1_1_lane_step.html#ac091f13fcf202b7cd088a7c2ef6913e1", null ],
+      [ "getStepValue", "struct_synth_lab_1_1_lane_step.html#a6c9bab5109956ae8608cd791b4168d6a", null ],
+      [ "initStepTiming", "struct_synth_lab_1_1_lane_step.html#adf854b1e58ab58aa799f837cacab2d9f", null ],
+      [ "operator=", "struct_synth_lab_1_1_lane_step.html#a824f6e3ab75ef1a73a5fa91a6f4d0c5a", null ],
+      [ "setNextStepIndex", "struct_synth_lab_1_1_lane_step.html#ac74754d4bfbe1a8795d441671db71ead", null ],
+      [ "setNULLStep", "struct_synth_lab_1_1_lane_step.html#acfa870c1aba4375fb1ddf821e328cd48", null ],
+      [ "setPreviousStepIndex", "struct_synth_lab_1_1_lane_step.html#a0f10a86acf48d3f6944fb4efaf80c0f4", null ],
+      [ "setStepValue", "struct_synth_lab_1_1_lane_step.html#a703b6457a98c86da6b3f418fde42952d", null ],
+      [ "updateStepDurationSamples", "struct_synth_lab_1_1_lane_step.html#af304a9678f80730a26e23de995428886", null ],
+      [ "updateStepProbability", "struct_synth_lab_1_1_lane_step.html#aac6ca233c080eb44d2ea78d1d9b628a2", null ],
+      [ "updateStepXFadeSamples", "struct_synth_lab_1_1_lane_step.html#a4f27a2402ca64721770ab2db98e260c3", null ],
+      [ "isNULLStep", "struct_synth_lab_1_1_lane_step.html#a05c86bf025cad583ed0617406b238f2e", null ],
+      [ "nextStepIndex", "struct_synth_lab_1_1_lane_step.html#a69d66e824f3771553d75bd381b2c9bb0", null ],
+      [ "noiseGen", "struct_synth_lab_1_1_lane_step.html#a41a5fabeb316184846b4184ebe4c84ba", null ],
+      [ "previousStepIndex", "struct_synth_lab_1_1_lane_step.html#a4f45be05ef0c8a98ba1379a3c6f5f023", null ],
+      [ "probability_Pct", "struct_synth_lab_1_1_lane_step.html#aa2f3fe122843fc5c0801cfd53201f9c9", null ],
+      [ "stepDurationMilliSec", "struct_synth_lab_1_1_lane_step.html#aaec26da2a9de38398f41be5adcb2dea7", null ],
+      [ "stepDurationNote", "struct_synth_lab_1_1_lane_step.html#a11b2100b87687ac2a049eab7fbbae9d6", null ],
+      [ "stepDurationSamples", "struct_synth_lab_1_1_lane_step.html#aafbfaa5364d5d9dd4b8938fd1dcfdceb", null ],
+      [ "stepDurationSamplesRunning", "struct_synth_lab_1_1_lane_step.html#a88d7de62dddc592b2d0e9b9f1ab1c971", null ],
+      [ "stepMode", "struct_synth_lab_1_1_lane_step.html#a3b3e8001634ba62c4d4367893ce8f37f", null ],
+      [ "stepValue", "struct_synth_lab_1_1_lane_step.html#af4f00e2ff29e75a2d7107ded6dc72d2f", null ],
+      [ "xfadeDurationMilliSec", "struct_synth_lab_1_1_lane_step.html#ad8d630c2ad4fc6170e594e4cac4cec5d", null ],
+      [ "xfadeDurationNote", "struct_synth_lab_1_1_lane_step.html#a636412d0e1a9de938a1642a7836c5ae9", null ],
+      [ "xfadeDurationSamples", "struct_synth_lab_1_1_lane_step.html#a7308f52e2462880af92c54effd339cb3", null ],
+      [ "xfadeDurationSamplesRunning", "struct_synth_lab_1_1_lane_step.html#a3432d89906dbe631284caaad7fa89134", null ]
+    ] ],
+    [ "WaveSequencerParameters", "struct_synth_lab_1_1_wave_sequencer_parameters.html", [
+      [ "WaveSequencerParameters", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a1a7d3143d56cc8db7121e7a8d8e5e8e4", null ],
+      [ "BPM", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a5ea5c48f6405a04fde6157aad86b4a79", null ],
+      [ "haltSequencer", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a32b7fffb15414fb04e53faaf0562323f", null ],
+      [ "interpolateStepSeqMod", "struct_synth_lab_1_1_wave_sequencer_parameters.html#aacfecc8b8bce06f930e17a204f7f5ea9", null ],
+      [ "modLoopDirIndex", "struct_synth_lab_1_1_wave_sequencer_parameters.html#aaa64a2b5d384a76d4f8954ef117fd745", null ],
+      [ "modLoopEnd", "struct_synth_lab_1_1_wave_sequencer_parameters.html#ac4b0c2bc3080727984a89b8080273d0b", null ],
+      [ "modLoopStart", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a06a1a8c2604273e45fc6258365162cd0", null ],
+      [ "pitchLaneProbability_pct", "struct_synth_lab_1_1_wave_sequencer_parameters.html#abd23c1c0c5dc471eb23d086c38358406", null ],
+      [ "pitchLaneValue", "struct_synth_lab_1_1_wave_sequencer_parameters.html#acac1a991bf64ada59e28e03676cd6331", null ],
+      [ "randomizePitchOrder", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a70f324fd028d72e31f091ebbaab6eee0", null ],
+      [ "randomizeSSModOrder", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a57b07c16866e12d31a633581ca003357", null ],
+      [ "randomizeStepOrder", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a2384722ff72d66e361a45b70f6886b1a", null ],
+      [ "randomizeWaveOrder", "struct_synth_lab_1_1_wave_sequencer_parameters.html#aefd85900317a8d21cd8388b9d3745f83", null ],
+      [ "statusMeters", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a1ea372fe40c6aaa0c3c75a82bbee4570", null ],
+      [ "stepDurationMilliSec", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a0269243a5414e784bea1d54990cb5e95", null ],
+      [ "stepDurationNoteIndex", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a4865fbdc18985eb7bb59981104663377", null ],
+      [ "stepSeqProbability_pct", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a0a5f59a3408f1130dcbef5c6a411f87f", null ],
+      [ "stepSeqValue", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a115ec43693fe3fbf905efa76b4804790", null ],
+      [ "stepType", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a81c6d8463f10262c65d4d5a5b0d27b27", null ],
+      [ "timeStretch", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a34d075346f0703ead30df009654bd143", null ],
+      [ "timingLoopDirIndex", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a4bee51d43057b74ee0039878bb10223d", null ],
+      [ "timingLoopEnd", "struct_synth_lab_1_1_wave_sequencer_parameters.html#ab49b30488b8f136bc760fe3f784232ff", null ],
+      [ "timingLoopStart", "struct_synth_lab_1_1_wave_sequencer_parameters.html#afdc885529c7f5c05e382ca06b7ed6a84", null ],
+      [ "waveLaneAmp_dB", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a0cfaf8e2557005d80c9322e237beca6d", null ],
+      [ "waveLaneProbability_pct", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a4f01b90029afdd002d50c91e902d071e", null ],
+      [ "waveLaneValue", "struct_synth_lab_1_1_wave_sequencer_parameters.html#ae8a8799429604bc487d7a4a1403e87f4", null ],
+      [ "xfadeDurationMilliSec", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a5a11e76f5ea38cb1b0e26a4a68a27f86", null ],
+      [ "xfadeDurationNoteIndex", "struct_synth_lab_1_1_wave_sequencer_parameters.html#a0e319c89da27915ebe396814ebe3df24", null ]
+    ] ],
+    [ "PCMSampleOutput", "struct_synth_lab_1_1_p_c_m_sample_output.html", [
+      [ "audioOutput", "struct_synth_lab_1_1_p_c_m_sample_output.html#a91a423a928e52a4d318abb2e87e83a50", null ],
+      [ "numActiveChannels", "struct_synth_lab_1_1_p_c_m_sample_output.html#a2a289a5d0a9ebc0ac3a8130eae843234", null ]
+    ] ],
+    [ "FilterOutput", "struct_synth_lab_1_1_filter_output.html", [
+      [ "FilterOutput", "struct_synth_lab_1_1_filter_output.html#afe80ddbe55ed706dcc4be29075edc67a", null ],
+      [ "clearData", "struct_synth_lab_1_1_filter_output.html#af321ad4b342d61ffea1c9090477c3b12", null ],
+      [ "filter", "struct_synth_lab_1_1_filter_output.html#ab33703c85a91bff7b23cda98134017eb", null ]
+    ] ],
+    [ "CoreProcData", "struct_synth_lab_1_1_core_proc_data.html", [
+      [ "BPM", "struct_synth_lab_1_1_core_proc_data.html#ad987fdcf84e37eaf2a38f17c80f57ebb", null ],
+      [ "dllPath", "struct_synth_lab_1_1_core_proc_data.html#a59b54190150873d7a4a884342b7b969e", null ],
+      [ "fmBuffers", "struct_synth_lab_1_1_core_proc_data.html#a49bbc1c3c825fe3902d8b33457083e8c", null ],
+      [ "inputBuffers", "struct_synth_lab_1_1_core_proc_data.html#a38af938d66933e6dbef56abfe2698285", null ],
+      [ "midiInputData", "struct_synth_lab_1_1_core_proc_data.html#a650daa8307282554d41dd90a49a4ff93", null ],
+      [ "modulationInputs", "struct_synth_lab_1_1_core_proc_data.html#a9bd22139b81694549738e45e1cf8014a", null ],
+      [ "modulationOutputs", "struct_synth_lab_1_1_core_proc_data.html#a669d94094f1fec9beda54bf91f186802", null ],
+      [ "moduleParameters", "struct_synth_lab_1_1_core_proc_data.html#a6643c3af86cf1d7ab4631ffb3c0a3207", null ],
+      [ "noteEvent", "struct_synth_lab_1_1_core_proc_data.html#a3ac7f5df8461e0bde67a08c66f9ea073", null ],
+      [ "outputBuffers", "struct_synth_lab_1_1_core_proc_data.html#a9d4245bbe20360002b3f88b73574441a", null ],
+      [ "sampleDatabase", "struct_synth_lab_1_1_core_proc_data.html#ade784467b27e51c1c15f059dee783aa5", null ],
+      [ "sampleRate", "struct_synth_lab_1_1_core_proc_data.html#aa09533ca5d63bb680aad8eecb0a54c2f", null ],
+      [ "samplesToProcess", "struct_synth_lab_1_1_core_proc_data.html#a4dcfa7886d4fabd460b164a7db8b070e", null ],
+      [ "unisonDetuneCents", "struct_synth_lab_1_1_core_proc_data.html#a7c4a6501197532bdc7e77081eed270a6", null ],
+      [ "unisonStartPhase", "struct_synth_lab_1_1_core_proc_data.html#a10bd825b0b42490c4b8246ce31c12897", null ],
+      [ "wavetableDatabase", "struct_synth_lab_1_1_core_proc_data.html#a09c29722447e1a6a121a44b174093772", null ]
+    ] ],
+    [ "SynthLabTableSet", "struct_synth_lab_1_1_synth_lab_table_set.html", [
+      [ "SynthLabTableSet", "struct_synth_lab_1_1_synth_lab_table_set.html#abb660e9af669b16e26a7e885bbaf27ac", null ],
+      [ "outputComp", "struct_synth_lab_1_1_synth_lab_table_set.html#aabff5491fc5830ce680b7ac724d701d9", null ],
+      [ "ppHexTableSet", "struct_synth_lab_1_1_synth_lab_table_set.html#aae3cb5ce9ffc7a357529ba2adb30a8f5", null ],
+      [ "tableFs", "struct_synth_lab_1_1_synth_lab_table_set.html#a9adb3caac2ee9bb17e894129dbca25fb", null ],
+      [ "tableLengths", "struct_synth_lab_1_1_synth_lab_table_set.html#a9138ac4fefb58161d1170bcbf9d1f24f", null ],
+      [ "waveformName", "struct_synth_lab_1_1_synth_lab_table_set.html#a716d7090da4f6f380cdf585c5aa1514b", null ]
+    ] ],
+    [ "SynthLabBankSet", "struct_synth_lab_1_1_synth_lab_bank_set.html", [
+      [ "SynthLabBankSet", "struct_synth_lab_1_1_synth_lab_bank_set.html#a5e0dea98a947d327a317675294dc1809", null ],
+      [ "staticSources", "struct_synth_lab_1_1_synth_lab_bank_set.html#a3509aa2f7f932627e9f72576fe625cef", null ],
+      [ "tableNames", "struct_synth_lab_1_1_synth_lab_bank_set.html#a5f740db2249ab0a4d78475f4398a6e3c", null ],
+      [ "tablePtrs", "struct_synth_lab_1_1_synth_lab_bank_set.html#ab11821a96698444777e24f8470b05736", null ],
+      [ "tablePtrsCount", "struct_synth_lab_1_1_synth_lab_bank_set.html#aeb4838621648902648a80e9df30ae7bc", null ]
+    ] ],
+    [ "StaticWavetable", "struct_synth_lab_1_1_static_wavetable.html", [
+      [ "StaticWavetable", "struct_synth_lab_1_1_static_wavetable.html#ab0ad7077a2f4d84f21a9190abfb64924", null ],
+      [ "StaticWavetable", "struct_synth_lab_1_1_static_wavetable.html#a9da064cbe219af33b28f30d25a789abb", null ],
+      [ "StaticWavetable", "struct_synth_lab_1_1_static_wavetable.html#aa02fe833847605ec2327d6cd2322d8c0", null ],
+      [ "dTable", "struct_synth_lab_1_1_static_wavetable.html#a9841516bf9a67c89e3b774ae0df65336", null ],
+      [ "outputComp", "struct_synth_lab_1_1_static_wavetable.html#a7a3f0aa1e260da115894421942da5b5a", null ],
+      [ "tableFs", "struct_synth_lab_1_1_static_wavetable.html#a6c19c5562aec61d469b55ee374c96e5f", null ],
+      [ "tableLength", "struct_synth_lab_1_1_static_wavetable.html#a60f81d46b99c4242f1d32de3fe02edd2", null ],
+      [ "uTable", "struct_synth_lab_1_1_static_wavetable.html#ac33ced07d6b4fb18aafb74b9e9e0c334", null ],
+      [ "waveformName", "struct_synth_lab_1_1_static_wavetable.html#ab7b0cdd1318c205b4ab9a7682c58490b", null ],
+      [ "wrapMask", "struct_synth_lab_1_1_static_wavetable.html#a17281a4bd2b5e1f92997a266beab36b7", null ]
+    ] ],
+    [ "DynamicWavetable", "struct_synth_lab_1_1_dynamic_wavetable.html", [
+      [ "DynamicWavetable", "struct_synth_lab_1_1_dynamic_wavetable.html#a9cb5ddfda3f7581caf04e17a6ec9c324", null ],
+      [ "DynamicWavetable", "struct_synth_lab_1_1_dynamic_wavetable.html#a788e49e1ea324cbd4a86176077628a87", null ],
+      [ "outputComp", "struct_synth_lab_1_1_dynamic_wavetable.html#a5eedec3df2df15a9109f3c136b2da243", null ],
+      [ "table", "struct_synth_lab_1_1_dynamic_wavetable.html#a3f4368408424c6b0da1acb1302e0582c", null ],
+      [ "tableFs", "struct_synth_lab_1_1_dynamic_wavetable.html#a544853f7d5d5f39e4b6399e60d99c862", null ],
+      [ "tableLength", "struct_synth_lab_1_1_dynamic_wavetable.html#a008ed4af290e369c16427b9cf97634eb", null ],
+      [ "waveformName", "struct_synth_lab_1_1_dynamic_wavetable.html#a8c87878adbcdfdd3b89da7d88ea0ca0e", null ],
+      [ "wrapMask", "struct_synth_lab_1_1_dynamic_wavetable.html#a247818e2238d211af35955953acb6647", null ]
+    ] ],
+    [ "VectorXFadeData", "struct_synth_lab_1_1_vector_x_fade_data.html", [
+      [ "vectorA", "struct_synth_lab_1_1_vector_x_fade_data.html#ac478b2703658164e0504fb511d0e16d4", null ],
+      [ "vectorAC", "struct_synth_lab_1_1_vector_x_fade_data.html#af8a7fd5186943a877ac155802b2c4249", null ],
+      [ "vectorB", "struct_synth_lab_1_1_vector_x_fade_data.html#a12a4f13b4cf402c10743af8abdfdcdab", null ],
+      [ "vectorBD", "struct_synth_lab_1_1_vector_x_fade_data.html#a8bf04ed91b097fbef5f94db684a7b4bc", null ],
+      [ "vectorC", "struct_synth_lab_1_1_vector_x_fade_data.html#a3b4506d7297a90bcebc051dac051b6be", null ],
+      [ "vectorD", "struct_synth_lab_1_1_vector_x_fade_data.html#a6282e623c8bd8eae556a0aee2e89d24e", null ]
+    ] ],
+    [ "OscParameters", "struct_synth_lab_1_1_osc_parameters.html", [
+      [ "OscParameters", "struct_synth_lab_1_1_osc_parameters.html#a72d78c42755628743e44bb96755c5189", null ],
+      [ "coarseDetune", "struct_synth_lab_1_1_osc_parameters.html#a04ef83a817da6717636f06209cc8e524", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_osc_parameters.html#a22bd6de254899bba9f51bb09cc665e5c", null ],
+      [ "forceLoop", "struct_synth_lab_1_1_osc_parameters.html#a263969c8539d23e4683aef13a6324618", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_osc_parameters.html#a9b6b5d5c017c04415934ee91b5268111", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_osc_parameters.html#ae0a52fb6b5bda1e601a78994a83b1c40", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_osc_parameters.html#ae0c6c52f5d63ebd610a6a1dcabc57292", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_osc_parameters.html#a4d2bf5bc58312cacd27652b41dc6e87e", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_osc_parameters.html#aaf6380bb42cc1b5809211be2de91fe02", null ],
+      [ "oscSpecificDetune", "struct_synth_lab_1_1_osc_parameters.html#a7d0ad195d0fe3a49a814ba68fc457112", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_osc_parameters.html#a96ab49f1828bea69f89fad2242671701", null ],
+      [ "panValue", "struct_synth_lab_1_1_osc_parameters.html#add62ac7fd4510206fe0fd964d5784fba", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_osc_parameters.html#a904dd088b46548b21450ec6ce3bdec69", null ],
+      [ "shape", "struct_synth_lab_1_1_osc_parameters.html#a7ff7dc859381bef4eba0fb8cf02f730f", null ],
+      [ "unisonDetuneCents", "struct_synth_lab_1_1_osc_parameters.html#a5a039e27699fc50e3c599aba907ecc70", null ],
+      [ "waveIndex", "struct_synth_lab_1_1_osc_parameters.html#af84d13d38567102be071584317ad0e40", null ]
+    ] ],
+    [ "WTOscParameters", "struct_synth_lab_1_1_w_t_osc_parameters.html", [
+      [ "WTOscParameters", "struct_synth_lab_1_1_w_t_osc_parameters.html#aab19d93bb0c862e20689c47f26b584af", null ],
+      [ "coarseDetune", "struct_synth_lab_1_1_w_t_osc_parameters.html#a3275b358249b31c82b1c2dd6c30138c4", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_w_t_osc_parameters.html#a4d2d91df8c00f31a379a6632fa4f63af", null ],
+      [ "forceLoop", "struct_synth_lab_1_1_w_t_osc_parameters.html#ae8240fadb5dfc7791a7553036b1b5e91", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_w_t_osc_parameters.html#a6c84a25b9ff519645dccd82b0dfcf055", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_w_t_osc_parameters.html#a22e5279f836a3572bf0c27b7e1aabc14", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_w_t_osc_parameters.html#a24f850f4431da243504b8459431a40ad", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_w_t_osc_parameters.html#ab6575df3804950a5ecb22e8976d86c05", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_w_t_osc_parameters.html#af2a83e25d0bf335d9f4a7afdd63a528b", null ],
+      [ "oscSpecificDetune", "struct_synth_lab_1_1_w_t_osc_parameters.html#a2316f5855b49faf57159a0e5dc6b7369", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_w_t_osc_parameters.html#a112868b0b4aba3d013507476b7bc57af", null ],
+      [ "panValue", "struct_synth_lab_1_1_w_t_osc_parameters.html#a2a18d79363d56b0e2108cad24317abc8", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_w_t_osc_parameters.html#a348b8bfd12c991a90167362a9a3be3fa", null ],
+      [ "unisonDetuneCents", "struct_synth_lab_1_1_w_t_osc_parameters.html#acceb9e7e60d4ce64b561db42f97d296a", null ],
+      [ "waveIndex", "struct_synth_lab_1_1_w_t_osc_parameters.html#a39265340a9f7d4034103a740b1949848", null ]
+    ] ],
+    [ "WSOscParameters", "struct_synth_lab_1_1_w_s_osc_parameters.html", [
+      [ "WSOscParameters", "struct_synth_lab_1_1_w_s_osc_parameters.html#ad95863c36332e51d49e9d325c36a640c", null ],
+      [ "detuneCents", "struct_synth_lab_1_1_w_s_osc_parameters.html#aec0503ec7b267ef56674bfa68f4c1d68", null ],
+      [ "detuneSemis", "struct_synth_lab_1_1_w_s_osc_parameters.html#a9ee30d8757b317946f789a7451e38be7", null ],
+      [ "doubleOscillator", "struct_synth_lab_1_1_w_s_osc_parameters.html#a33602a7c7f480489c6d7689cb990b5ec", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_w_s_osc_parameters.html#aef4fcee8ee2e12776ed379323fc35be0", null ],
+      [ "morphIntensity", "struct_synth_lab_1_1_w_s_osc_parameters.html#a9b1611b54704da0a210b6e63f490552d", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_w_s_osc_parameters.html#ab278a07da7628837e63b3af8f0ec361c", null ],
+      [ "panValue", "struct_synth_lab_1_1_w_s_osc_parameters.html#af1f8418f95ab935fe54b47c403b35494", null ],
+      [ "soloWaveWSIndex", "struct_synth_lab_1_1_w_s_osc_parameters.html#adb30879eac2d8babe3329e30e718a7a0", null ]
+    ] ],
+    [ "VA1Coeffs", "struct_synth_lab_1_1_v_a1_coeffs.html", [
+      [ "alpha", "struct_synth_lab_1_1_v_a1_coeffs.html#ab72583c4b09f0f178f6217b809b1bcb6", null ],
+      [ "beta", "struct_synth_lab_1_1_v_a1_coeffs.html#acc1918b54517307a185a49935640f23d", null ]
+    ] ],
+    [ "VAOscParameters", "struct_synth_lab_1_1_v_a_osc_parameters.html", [
+      [ "VAOscParameters", "struct_synth_lab_1_1_v_a_osc_parameters.html#a18c145246027f2d4402ca9b0527046d0", null ],
+      [ "coarseDetune", "struct_synth_lab_1_1_v_a_osc_parameters.html#a155a76fd6a8b4b2f6caf6b23055a3a27", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_v_a_osc_parameters.html#a0ad965831763688ba36e754b93e6e07a", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_v_a_osc_parameters.html#aa21ef977c1d1b22616f41c015b331fd1", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_v_a_osc_parameters.html#af0ddaaf5384bc40dd38f7686a19267f4", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_v_a_osc_parameters.html#adea4f5ef637277e5c1b749c5e1c4ac3b", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_v_a_osc_parameters.html#a099a5d3c6278ee2e85bbc7e6419966fb", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_v_a_osc_parameters.html#abcb444395b0bea5ea003d9dd90fe3669", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_v_a_osc_parameters.html#a91be8ed74cb8d2ebcdfa2097364ed86f", null ],
+      [ "panValue", "struct_synth_lab_1_1_v_a_osc_parameters.html#a914008647ca9c96d57a0ecdfa427752a", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_v_a_osc_parameters.html#a3581e86a310622f5934ec0627b0a6280", null ],
+      [ "pulseWidth_Pct", "struct_synth_lab_1_1_v_a_osc_parameters.html#ad892c49fc2c4e2db6e6d54d921270a09", null ],
+      [ "unisonDetune", "struct_synth_lab_1_1_v_a_osc_parameters.html#a36c9ab9d9e737a57dab8da57e9559bd0", null ],
+      [ "waveformMix", "struct_synth_lab_1_1_v_a_osc_parameters.html#a9143b87245ca0b898c4e80f607751d9d", null ],
+      [ "waveIndex", "struct_synth_lab_1_1_v_a_osc_parameters.html#a61be8d282176e83c37de8bfebfb412a4", null ]
+    ] ],
+    [ "PCMOscParameters", "struct_synth_lab_1_1_p_c_m_osc_parameters.html", [
+      [ "coarseDetune", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#ae57490064e167fc9e1d0a38fa4731fa6", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#aeb8c0d4f5732bc77e330794dcd451dd7", null ],
+      [ "freqModIndex", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a33d9f5c02053e913d58befe22b33a879", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a2e577f222958fccfbd79c00754bac4dc", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#aca6fd82ffb694e73e8bb6a89a4ca7777", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a836506517fe7919812e5ca8fcab8ba0d", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a6f937133e9d313af6f12de58ea0f1405", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#ac70a94715f6a1bc183a2087e1f09c824", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a57296839348a6559f9db15d796e04315", null ],
+      [ "panValue", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#aa15c534cbfa5b6eef414096f590be395", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a9ba006091eb9e90c58c7d538ce767ae0", null ],
+      [ "unisonDetune", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#afe97efea298a66ccf5786a3b4bf2a686", null ],
+      [ "waveIndex", "struct_synth_lab_1_1_p_c_m_osc_parameters.html#a77411874d623424929c45813d9c70cb9", null ]
+    ] ],
+    [ "KSOscParameters", "struct_synth_lab_1_1_k_s_osc_parameters.html", [
+      [ "KSOscParameters", "struct_synth_lab_1_1_k_s_osc_parameters.html#a5b826504138a678d6605592875290220", null ],
+      [ "algorithmIndex", "struct_synth_lab_1_1_k_s_osc_parameters.html#a88badd23437feb08c32d43fe9fbb8885", null ],
+      [ "attackTime_mSec", "struct_synth_lab_1_1_k_s_osc_parameters.html#a35892d5a460534519e5fcce8e0ae7ae1", null ],
+      [ "coarseDetune", "struct_synth_lab_1_1_k_s_osc_parameters.html#a1d746988a456b0421ec9d49ad75b20f7", null ],
+      [ "decay", "struct_synth_lab_1_1_k_s_osc_parameters.html#a20bf0738b6960fd72858cc8928795127", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_k_s_osc_parameters.html#a9e01f8eb220b094450beb91cbd8aac8d", null ],
+      [ "freqModIndex", "struct_synth_lab_1_1_k_s_osc_parameters.html#a7665392ff3c139ea14fc98c7abb7ad5e", null ],
+      [ "hardSyncRatio", "struct_synth_lab_1_1_k_s_osc_parameters.html#afb195d49d8afc4cc296e84ee2299f865", null ],
+      [ "holdTime_mSec", "struct_synth_lab_1_1_k_s_osc_parameters.html#aed42420f288dc8c63f1f5637fa8619c0", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_k_s_osc_parameters.html#a191065394198f34c0f67956966fe0c53", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_k_s_osc_parameters.html#aded89d3081442ccba8b7e9cb48ff9f86", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_k_s_osc_parameters.html#a62f0f44a7b15bc21287658219f0a4b98", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_k_s_osc_parameters.html#a1932ae77fe5147a03f70cea88f1d4ab2", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_k_s_osc_parameters.html#ad4cecc690808160a505acf87d29a22f8", null ],
+      [ "panValue", "struct_synth_lab_1_1_k_s_osc_parameters.html#a836a4cf85cab8891b183165f8e946204", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_k_s_osc_parameters.html#a25dbb42e126ae68e7699ab6094a39db8", null ],
+      [ "pluckPosition", "struct_synth_lab_1_1_k_s_osc_parameters.html#a29c1693a5e0792aea1da2a124e94769f", null ],
+      [ "releaseTime_mSec", "struct_synth_lab_1_1_k_s_osc_parameters.html#a04c364185dd611d99bb86f9db64c276c", null ],
+      [ "unisonDetune", "struct_synth_lab_1_1_k_s_osc_parameters.html#a8f44dc99052fa23ba77d88b83fb0d3a2", null ]
+    ] ],
+    [ "ModSource", "struct_synth_lab_1_1_mod_source.html", [
+      [ "ModSource", "struct_synth_lab_1_1_mod_source.html#ac2a9c38a35a23a70cc235c95ea272b40", null ],
+      [ "clear", "struct_synth_lab_1_1_mod_source.html#a11ea1c6e8e7513607bcf24c87e1dfc79", null ],
+      [ "operator=", "struct_synth_lab_1_1_mod_source.html#ab1a2dc23708a21fb1bdf089fa6495515", null ],
+      [ "intensity", "struct_synth_lab_1_1_mod_source.html#a53aeabf5e18a505e1b39cc03ec442299", null ]
+    ] ],
+    [ "ModDestination", "struct_synth_lab_1_1_mod_destination.html", [
+      [ "ModDestination", "struct_synth_lab_1_1_mod_destination.html#a0e54fe4e70e5b82b0b8fa3d40d24f044", null ],
+      [ "clear", "struct_synth_lab_1_1_mod_destination.html#a7b720eb26e7fdff9e146be9ad5d74e53", null ],
+      [ "operator=", "struct_synth_lab_1_1_mod_destination.html#a8447154e07ccb3ebe2b2aa85e48d1e54", null ],
+      [ "channelEnable", "struct_synth_lab_1_1_mod_destination.html#ac82bf80335a5454752fff279ade1f839", null ],
+      [ "channelHardwire", "struct_synth_lab_1_1_mod_destination.html#a61faeb7d85649b860dfb12ef78dd72f2", null ],
+      [ "channelIntensity", "struct_synth_lab_1_1_mod_destination.html#a835d6386feac9a79863747684d040e06", null ],
+      [ "defautValue", "struct_synth_lab_1_1_mod_destination.html#adb73056ffb67aa6300c7434b3f71e384", null ],
+      [ "enableChannelIntensity", "struct_synth_lab_1_1_mod_destination.html#a38631a0fa6a87b36d039217db03c9905", null ],
+      [ "hardwireIntensity", "struct_synth_lab_1_1_mod_destination.html#a6eadb7d379526c96e99b71f9d2441503", null ],
+      [ "intensity", "struct_synth_lab_1_1_mod_destination.html#a8f6a662028e5641555a134302ccc297e", null ],
+      [ "priorityModulation", "struct_synth_lab_1_1_mod_destination.html#a2e0d78c7d5a0288a4dd2725e2ac0686f", null ]
+    ] ],
+    [ "ModMatrixParameters", "struct_synth_lab_1_1_mod_matrix_parameters.html", [
+      [ "ModMatrixParameters", "struct_synth_lab_1_1_mod_matrix_parameters.html#a51112230db01eeb75d391714220bde58", null ],
+      [ "operator=", "struct_synth_lab_1_1_mod_matrix_parameters.html#a7a3cbdb6fa9130ab8b74ab97beb862ab", null ],
+      [ "setMM_ChannelEnable", "struct_synth_lab_1_1_mod_matrix_parameters.html#abc2fa2741696904fc32d77db3b297990", null ],
+      [ "setMM_ChannelIntensity", "struct_synth_lab_1_1_mod_matrix_parameters.html#aa8c0d676b11f19e88b4ce3b81308da09", null ],
+      [ "setMM_DestDefaultValue", "struct_synth_lab_1_1_mod_matrix_parameters.html#a06740565b16dbf4d7459a855f475e90d", null ],
+      [ "setMM_DestHardwireIntensity", "struct_synth_lab_1_1_mod_matrix_parameters.html#a639232a8808a8d019e7207e8b52c0cb0", null ],
+      [ "setMM_DestHighPriority", "struct_synth_lab_1_1_mod_matrix_parameters.html#ab5278f9dc483b06e7709b78ddf735802", null ],
+      [ "setMM_DestIntensity", "struct_synth_lab_1_1_mod_matrix_parameters.html#a2161c9c96ed007d8f37510cc2a1f2eeb", null ],
+      [ "setMM_HardwiredRouting", "struct_synth_lab_1_1_mod_matrix_parameters.html#ac5aa73324b42f70ce9ae76539ef6bff8", null ],
+      [ "setMM_HardwireEnable", "struct_synth_lab_1_1_mod_matrix_parameters.html#afde7a87f5297097efb65d324cf4a3b6d", null ],
+      [ "setMM_SourceIntensity", "struct_synth_lab_1_1_mod_matrix_parameters.html#af1823175df1653a229f5a3c91500801f", null ],
+      [ "modDestinationColumns", "struct_synth_lab_1_1_mod_matrix_parameters.html#adee2a66c0ff37cfc40cd66148d4fdc63", null ],
+      [ "modSourceRows", "struct_synth_lab_1_1_mod_matrix_parameters.html#a8b2fcb6375cf50b1505db7f981e20e12", null ]
+    ] ],
+    [ "NoiseOscillatorParameters", "struct_synth_lab_1_1_noise_oscillator_parameters.html", [
+      [ "NoiseOscillatorParameters", "struct_synth_lab_1_1_noise_oscillator_parameters.html#a0803d336372239330146ef14aad2a5ff", null ],
+      [ "operator=", "struct_synth_lab_1_1_noise_oscillator_parameters.html#a83be0e94dc2a626177911dc0712de5f3", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_noise_oscillator_parameters.html#ad0073dfc2e04c47ea3481492d01364d1", null ],
+      [ "waveform", "struct_synth_lab_1_1_noise_oscillator_parameters.html#a76ec477895073982026d0f5ad596a1cf", null ]
+    ] ],
+    [ "FilterParameters", "struct_synth_lab_1_1_filter_parameters.html", [
+      [ "analogFGN", "struct_synth_lab_1_1_filter_parameters.html#a06ecf280797fa0d0aa82ee5deaf78893", null ],
+      [ "bassGainComp", "struct_synth_lab_1_1_filter_parameters.html#a51d1a4fa22e109477c68d8785db09b08", null ],
+      [ "enableKeyTrack", "struct_synth_lab_1_1_filter_parameters.html#ac2cc42e4062da8eaf9d9e30bf607dad4", null ],
+      [ "fc", "struct_synth_lab_1_1_filter_parameters.html#a5ff340178a09bd0959ccb938468ddc63", null ],
+      [ "filterDrive", "struct_synth_lab_1_1_filter_parameters.html#a14ba923004f937f126684168497b2b90", null ],
+      [ "filterIndex", "struct_synth_lab_1_1_filter_parameters.html#a40f6a79326b5a34650584c41fffdbd87", null ],
+      [ "filterOutputGain_dB", "struct_synth_lab_1_1_filter_parameters.html#af81a2d3996bdb5b80417fb77e52e10ed", null ],
+      [ "keyTrackSemis", "struct_synth_lab_1_1_filter_parameters.html#aeebbbc32f87de04a76b03aed6ad1cfa2", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_filter_parameters.html#af2d89f466f58f5efc2a2944801b1aee4", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_filter_parameters.html#a38d7c52dd788af274586bd3596e1cd28", null ],
+      [ "Q", "struct_synth_lab_1_1_filter_parameters.html#a90e8572b900c52a9d919bcc26011a67c", null ]
+    ] ],
+    [ "EGParameters", "struct_synth_lab_1_1_e_g_parameters.html", [
+      [ "EGParameters", "struct_synth_lab_1_1_e_g_parameters.html#ae1c66fa3808478952119ffa5acd27a67", null ],
+      [ "attackTime_mSec", "struct_synth_lab_1_1_e_g_parameters.html#aef63cb73b1abc735f363050801de751f", null ],
+      [ "curvature", "struct_synth_lab_1_1_e_g_parameters.html#a461a32f5e315d6e34a6a24f2b2783e53", null ],
+      [ "decayLevel", "struct_synth_lab_1_1_e_g_parameters.html#a4b5fbd0b10ce2ce8e43333b2a7d6f626", null ],
+      [ "decayTime_mSec", "struct_synth_lab_1_1_e_g_parameters.html#a8423cba13cbe8f348c91698ba26a9a0c", null ],
+      [ "egContourIndex", "struct_synth_lab_1_1_e_g_parameters.html#ae15a1e800e4f1d23475f1b1b6a190412", null ],
+      [ "endLevel", "struct_synth_lab_1_1_e_g_parameters.html#a8c3f372ca072f0cb7bf83a1417992498", null ],
+      [ "legatoMode", "struct_synth_lab_1_1_e_g_parameters.html#ab4672fe6cb9b0f44d047e2b42dfef91e", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_e_g_parameters.html#a2bff8fc443e377ddcf5ff9658d151e77", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_e_g_parameters.html#aded72197ef4d2fe1f4501ca5770c1762", null ],
+      [ "noteNumberToDecayScaling", "struct_synth_lab_1_1_e_g_parameters.html#a5add9729ac349476b71b6693abe6fb34", null ],
+      [ "releaseTime_mSec", "struct_synth_lab_1_1_e_g_parameters.html#a44c78244b10f52373c345f6307f9a680", null ],
+      [ "resetToZero", "struct_synth_lab_1_1_e_g_parameters.html#a6aba6bd0240a37ef0f2adfd96cbef9ea", null ],
+      [ "slopeTime_mSec", "struct_synth_lab_1_1_e_g_parameters.html#a85fb84ff178dd345db2785721e290f9a", null ],
+      [ "startLevel", "struct_synth_lab_1_1_e_g_parameters.html#a72ef88efbad823e5733447699c84630b", null ],
+      [ "sustainLevel", "struct_synth_lab_1_1_e_g_parameters.html#aa5e3fb7c0ff2fef8ce94a69551a126f2", null ],
+      [ "velocityToAttackScaling", "struct_synth_lab_1_1_e_g_parameters.html#a85cb85807e8b35b9e60d1207c191a9de", null ]
+    ] ],
+    [ "ExciterParameters", "struct_synth_lab_1_1_exciter_parameters.html", [
+      [ "operator=", "struct_synth_lab_1_1_exciter_parameters.html#a33d83e32ff1b30fd27e6cd19e039d6f7", null ],
+      [ "attackTime_mSec", "struct_synth_lab_1_1_exciter_parameters.html#a4849782ec41d9894c82855fd2cdb449b", null ],
+      [ "holdTime_mSec", "struct_synth_lab_1_1_exciter_parameters.html#ad62488eb5772bd6a885d1d53a912a5fa", null ],
+      [ "releaseTime_mSec", "struct_synth_lab_1_1_exciter_parameters.html#a3eca313877609bd5cc9b63db8115ae5f", null ]
+    ] ],
+    [ "FMOperatorParameters", "struct_synth_lab_1_1_f_m_operator_parameters.html", [
+      [ "FMOperatorParameters", "struct_synth_lab_1_1_f_m_operator_parameters.html#ac2e5dad1c52b6294088763b79a02b18b", null ],
+      [ "coarseDetune", "struct_synth_lab_1_1_f_m_operator_parameters.html#a2c1b734481bc97ae3252a37e110944c1", null ],
+      [ "dxEGParameters", "struct_synth_lab_1_1_f_m_operator_parameters.html#aa4f5d11ff7dac767afd47fb8a8fcf281", null ],
+      [ "fineDetune", "struct_synth_lab_1_1_f_m_operator_parameters.html#a046f471aa59c822900bc930f721a4d7c", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_f_m_operator_parameters.html#a1033d991f9667d4a7f504dbe511e4b56", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_f_m_operator_parameters.html#aff9964e4df7950a43e9700a8a5889cc8", null ],
+      [ "octaveDetune", "struct_synth_lab_1_1_f_m_operator_parameters.html#a19ebca293dbaf7b5594f0d72a3e942cf", null ],
+      [ "oscillatorShape", "struct_synth_lab_1_1_f_m_operator_parameters.html#a0ce6647865d79488e5dfd70b8f1be0ec", null ],
+      [ "outputAmplitude_dB", "struct_synth_lab_1_1_f_m_operator_parameters.html#a94ab1647f1172e761324c072af62bf01", null ],
+      [ "panValue", "struct_synth_lab_1_1_f_m_operator_parameters.html#a0929a294d3cb7650fa0fbb2d84e6b9d5", null ],
+      [ "phaseModIndex", "struct_synth_lab_1_1_f_m_operator_parameters.html#a16008a5e263f09a2ae4d69542d7bfa3c", null ],
+      [ "ratio", "struct_synth_lab_1_1_f_m_operator_parameters.html#a37406ce7bacf4d099504025780eb9a45", null ],
+      [ "unisonDetune", "struct_synth_lab_1_1_f_m_operator_parameters.html#a67f1021824f131659e34ed01de1accbe", null ],
+      [ "waveIndex", "struct_synth_lab_1_1_f_m_operator_parameters.html#afa89909cc1e94b4d3069ad77328000c3", null ]
+    ] ],
+    [ "DCAParameters", "struct_synth_lab_1_1_d_c_a_parameters.html", [
+      [ "DCAParameters", "struct_synth_lab_1_1_d_c_a_parameters.html#a7e97a009f8e51b530f86f3f28d27ee6e", null ],
+      [ "ampEGIntensity", "struct_synth_lab_1_1_d_c_a_parameters.html#adab71698ec773a9de861a97e545dcfac", null ],
+      [ "ampModIntensity", "struct_synth_lab_1_1_d_c_a_parameters.html#ad1831467cf020706fac4459928abaccb", null ],
+      [ "gainValue_dB", "struct_synth_lab_1_1_d_c_a_parameters.html#a6ba620b4dbf418ff3c5524c6385d5493", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_d_c_a_parameters.html#ab57be679eb632b8c14efe64544473676", null ],
+      [ "panModIntensity", "struct_synth_lab_1_1_d_c_a_parameters.html#a51c072ae243a0805f16dcb231d44d8d0", null ],
+      [ "panValue", "struct_synth_lab_1_1_d_c_a_parameters.html#aff1aa2d70625c0b7544f93d0d5ec174f", null ]
+    ] ],
+    [ "LFOParameters", "struct_synth_lab_1_1_l_f_o_parameters.html", [
+      [ "frequency_Hz", "struct_synth_lab_1_1_l_f_o_parameters.html#a1113e787af686305f0030eb93f5ae39f", null ],
+      [ "modeIndex", "struct_synth_lab_1_1_l_f_o_parameters.html#a7b3f3a51460b617c01548dd2d6a45fe9", null ],
+      [ "modKnobValue", "struct_synth_lab_1_1_l_f_o_parameters.html#a0a34f48377a0bb2b1c799491262c0430", null ],
+      [ "moduleIndex", "struct_synth_lab_1_1_l_f_o_parameters.html#a6b057f2e52582c4472369d0d2dfd1df2", null ],
+      [ "outputAmplitude", "struct_synth_lab_1_1_l_f_o_parameters.html#a6ee1f116b3bb809bac3d0412e10601da", null ],
+      [ "quantize", "struct_synth_lab_1_1_l_f_o_parameters.html#a66e2d8c715808325a69c25e69b12b3f3", null ],
+      [ "waveformIndex", "struct_synth_lab_1_1_l_f_o_parameters.html#aedf93e25b1ca1f81904600df53a1c842", null ]
+    ] ],
+    [ "MorphBankData", "struct_synth_lab_1_1_morph_bank_data.html", [
+      [ "bankName", "struct_synth_lab_1_1_morph_bank_data.html#ac1d3dc6fb2c199abcb692ff8746c55bf", null ],
+      [ "numTables", "struct_synth_lab_1_1_morph_bank_data.html#ab56322b0014cd28ee39241a4925fbf86", null ],
+      [ "staticSources", "struct_synth_lab_1_1_morph_bank_data.html#a65e21913ce039f3eb73ef92c98182201", null ],
+      [ "tableIndexes", "struct_synth_lab_1_1_morph_bank_data.html#a99b6d7b2c7e05a593f84034a94d2100d", null ],
+      [ "tableNames", "struct_synth_lab_1_1_morph_bank_data.html#a24cfd9b72b4d133fd7269a0ab7025eb5", null ]
+    ] ],
+    [ "XFadeData", "struct_synth_lab_1_1_x_fade_data.html", [
+      [ "constPwrGain", "struct_synth_lab_1_1_x_fade_data.html#ae8f4b4fd318743b42ddba290992c1ca1", null ],
+      [ "crossfadeFinished", "struct_synth_lab_1_1_x_fade_data.html#a23cc8802f86174e7df03579283667fe4", null ],
+      [ "linearGain", "struct_synth_lab_1_1_x_fade_data.html#aaf258bb12a11e39b4fbe6f0ba041f9e7", null ],
+      [ "squareLawGain", "struct_synth_lab_1_1_x_fade_data.html#ae7d02eb4fbcd8d4da588a4df725e865b", null ]
+    ] ],
+    [ "MidiOutputData", "struct_synth_lab_1_1_midi_output_data.html", [
+      [ "MidiOutputData", "struct_synth_lab_1_1_midi_output_data.html#ace1b108b1d9f8316a4db4d666700328d", null ],
+      [ "ccMIDIData", "struct_synth_lab_1_1_midi_output_data.html#a2fdc3cb91b676a2ccc6fbbb226accd3c", null ],
+      [ "globalMIDIData", "struct_synth_lab_1_1_midi_output_data.html#a5bc6dc8fba0c629df82b4890edd86523", null ]
+    ] ],
+    [ "WaveStringData", "struct_synth_lab_1_1_wave_string_data.html", [
+      [ "WaveStringData", "struct_synth_lab_1_1_wave_string_data.html#adee58784f6545f18c80a29006a9308d6", null ],
+      [ "coreIndex", "struct_synth_lab_1_1_wave_string_data.html#a57e466c71a11c91b6ca44d935fea380c", null ],
+      [ "coreWaveIndex", "struct_synth_lab_1_1_wave_string_data.html#abb5b789a10f56ff06a7be616e07375c0", null ]
+    ] ],
+    [ "LookUpTable", "struct_synth_lab_1_1_look_up_table.html", [
+      [ "LookUpTable", "struct_synth_lab_1_1_look_up_table.html#a15b8e5a75f4256c33d5111ed5b772959", null ],
+      [ "~LookUpTable", "struct_synth_lab_1_1_look_up_table.html#a91a80948f87f2aff9a6bd48a97c0707c", null ],
+      [ "table", "struct_synth_lab_1_1_look_up_table.html#acd7dccd66d07dbef008297a567f5b559", null ],
+      [ "tableLength", "struct_synth_lab_1_1_look_up_table.html#a230a3efba0423cebe1074ccd4eff457a", null ]
+    ] ],
+    [ "PluginInfo", "struct_synth_lab_1_1_plugin_info.html", [
+      [ "PluginInfo", "struct_synth_lab_1_1_plugin_info.html#ad703d01a819fae38565d006cd1f2cdfe", null ],
+      [ "operator=", "struct_synth_lab_1_1_plugin_info.html#a435fc5ae670a9a275cf2cc8b346e1012", null ],
+      [ "pathToDLL", "struct_synth_lab_1_1_plugin_info.html#adf452f9a4a88443df83e50bc3ab080c9", null ]
+    ] ],
+    [ "midiEvent", "struct_synth_lab_1_1midi_event.html", [
+      [ "midiEvent", "struct_synth_lab_1_1midi_event.html#a0451ff6479f537b7a18f70e645d842e8", null ],
+      [ "midiEvent", "struct_synth_lab_1_1midi_event.html#a4d3f4f1540023836016021f82a6e6021", null ],
+      [ "operator=", "struct_synth_lab_1_1midi_event.html#a2a06c081d1efbe4d2af32fe914500a7c", null ],
+      [ "midiChannel", "struct_synth_lab_1_1midi_event.html#ac7d541743f72e232de60365cbd550a32", null ],
+      [ "midiData1", "struct_synth_lab_1_1midi_event.html#ac2fff36351bacd0c1a7e429f1b2234b7", null ],
+      [ "midiData2", "struct_synth_lab_1_1midi_event.html#af0e85e09910a4a34af635b502d41eec5", null ],
+      [ "midiMessage", "struct_synth_lab_1_1midi_event.html#ae6c76e32232f40f3fb150a854667c3f7", null ],
+      [ "midiSampleOffset", "struct_synth_lab_1_1midi_event.html#a64cfa363c51a5aa48d9fc553e00cb574", null ]
+    ] ],
+    [ "MIDINoteEvent", "struct_synth_lab_1_1_m_i_d_i_note_event.html", [
+      [ "MIDINoteEvent", "struct_synth_lab_1_1_m_i_d_i_note_event.html#ae7b82ea332611d55569cd0ece6c788f4", null ],
+      [ "midiNoteNumber", "struct_synth_lab_1_1_m_i_d_i_note_event.html#ab39c1eb0f451972d37592e99636f8e06", null ],
+      [ "midiNoteVelocity", "struct_synth_lab_1_1_m_i_d_i_note_event.html#a93dce735febfe26bc91a4b17922adec9", null ],
+      [ "midiPitch", "struct_synth_lab_1_1_m_i_d_i_note_event.html#a7c1a0e203aa66105e2f69d3f2850881d", null ]
+    ] ],
+    [ "ModuleCoreData", "struct_synth_lab_1_1_module_core_data.html", [
+      [ "modKnobStrings", "struct_synth_lab_1_1_module_core_data.html#ad5a0961d1e59c7cf3ded57c82dc1fb15", null ],
+      [ "moduleStrings", "struct_synth_lab_1_1_module_core_data.html#a2c0d1238dcc4e52c39a62b0b5109c43f", null ],
+      [ "uniqueIndexes", "struct_synth_lab_1_1_module_core_data.html#a1066cafdbf6e6bee2ce3116042721936", null ]
+    ] ]
+];

@@ -1,0 +1,25 @@
+var class_synth_lab_1_1_high_shelf_filter =
+[
+    [ "xz1", "class_synth_lab_1_1_high_shelf_filter.html#a673dabe38571b7d41e07552defef6e62a3a4f3d50712c907ca575d520cb649a0c", null ],
+    [ "xz2", "class_synth_lab_1_1_high_shelf_filter.html#a673dabe38571b7d41e07552defef6e62ab4be90a258dca1aeb778d5ee5bad7a93", null ],
+    [ "yz1", "class_synth_lab_1_1_high_shelf_filter.html#a673dabe38571b7d41e07552defef6e62aa1b27deb08c127e7d3a43ce4323ddd06", null ],
+    [ "yz2", "class_synth_lab_1_1_high_shelf_filter.html#a673dabe38571b7d41e07552defef6e62a19432e5069d362dc7b9646561191be9d", null ],
+    [ "numStates", "class_synth_lab_1_1_high_shelf_filter.html#a673dabe38571b7d41e07552defef6e62a41380be077fe1631e2a88d6a88e4f93f", null ],
+    [ "a0", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48a40cdadabb07ca96b0f6bfbf7a050a705", null ],
+    [ "a1", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48a0aed6cc5ab744aec66b2c3c45d6cef9c", null ],
+    [ "a2", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48a390f2594e6643b58e284481de61d0640", null ],
+    [ "b1", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48aeb5c87879f37ce5df03cae6600c5e183", null ],
+    [ "b2", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48a2f5d1470f52d42355d43f77bd3f7ae5b", null ],
+    [ "c0", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48aece71b7bb697d95eb76cf97f2866e63f", null ],
+    [ "d0", "class_synth_lab_1_1_high_shelf_filter.html#a836c0c3d0a2240d3231ccae009f9ed48acd981fb9c7a86871df5770e71b931e52", null ],
+    [ "HighShelfFilter", "class_synth_lab_1_1_high_shelf_filter.html#ae41b38f5e60fc8b2b1fdad47545b1446", null ],
+    [ "~HighShelfFilter", "class_synth_lab_1_1_high_shelf_filter.html#a345db9b63cfabe23ae21fc1211d5117a", null ],
+    [ "processAudioSample", "class_synth_lab_1_1_high_shelf_filter.html#acae5d2d18e14689f6d9d7a0b9edfbee4", null ],
+    [ "reset", "class_synth_lab_1_1_high_shelf_filter.html#aa2993820936209876f2e6b038c57b81e", null ],
+    [ "setParameters", "class_synth_lab_1_1_high_shelf_filter.html#a9f353965db6ee61b39fa6af89ff94683", null ],
+    [ "boostCut_dB", "class_synth_lab_1_1_high_shelf_filter.html#a81d1283d371e8215d22075cae7cf0ecc", null ],
+    [ "coeffs", "class_synth_lab_1_1_high_shelf_filter.html#af37e61f8053ac51c63495e7c7dd68dcc", null ],
+    [ "fc", "class_synth_lab_1_1_high_shelf_filter.html#a081c1f028d9738552a4ec927424e49b3", null ],
+    [ "sampleRate", "class_synth_lab_1_1_high_shelf_filter.html#a51307350c9f9fef441cbe7d7b960169a", null ],
+    [ "state", "class_synth_lab_1_1_high_shelf_filter.html#ad32e0ce2d548db558d753216e461c9f1", null ]
+];

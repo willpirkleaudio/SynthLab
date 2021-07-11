@@ -1,0 +1,25 @@
+var class_synth_lab_1_1_low_shelf_filter =
+[
+    [ "xz1", "class_synth_lab_1_1_low_shelf_filter.html#abbedfd0a18edc2368255452e823e45f1aac9dff7bb0122ea660d450d5bd899b56", null ],
+    [ "xz2", "class_synth_lab_1_1_low_shelf_filter.html#abbedfd0a18edc2368255452e823e45f1aede594a5797ed40f4e4d73d3d9b506aa", null ],
+    [ "yz1", "class_synth_lab_1_1_low_shelf_filter.html#abbedfd0a18edc2368255452e823e45f1afefd89aa035ef1128d5dffea28b72765", null ],
+    [ "yz2", "class_synth_lab_1_1_low_shelf_filter.html#abbedfd0a18edc2368255452e823e45f1a2201f085317235f79674480d79abb6a2", null ],
+    [ "numStates", "class_synth_lab_1_1_low_shelf_filter.html#abbedfd0a18edc2368255452e823e45f1a3157836b0bc2bc1a148917afa0b7e64c", null ],
+    [ "a0", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201a161d3373c963787d384910bccca04ed2", null ],
+    [ "a1", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201af87c0d45af175bf3acecfe9a946ec46e", null ],
+    [ "a2", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201a6fcb1d7c2573ad2ce6876944c1c07791", null ],
+    [ "b1", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201a3b26ea57f41706c265cfab094b1897b4", null ],
+    [ "b2", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201a08ce26d8473c98c9c81c905362e1a4a3", null ],
+    [ "c0", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201a4e97603324056720e07ea46a1d879bce", null ],
+    [ "d0", "class_synth_lab_1_1_low_shelf_filter.html#ab10743050abafbb85440da1a34f0c201adfccdf7ef4c9abca1ab1b886912d9068", null ],
+    [ "LowShelfFilter", "class_synth_lab_1_1_low_shelf_filter.html#afa0f0d642462a0d8f45f99267bb941ed", null ],
+    [ "~LowShelfFilter", "class_synth_lab_1_1_low_shelf_filter.html#a24fb7027f4c6a90b0ae64c5f50e97564", null ],
+    [ "processAudioSample", "class_synth_lab_1_1_low_shelf_filter.html#a9ab124840d1bc19d4dcc508f99a02a81", null ],
+    [ "reset", "class_synth_lab_1_1_low_shelf_filter.html#a5bece88c58987b5a6b3c5575f17553fa", null ],
+    [ "setParameters", "class_synth_lab_1_1_low_shelf_filter.html#a300b6ec21747fa5f03a915c6a7ba9e54", null ],
+    [ "boostCut_dB", "class_synth_lab_1_1_low_shelf_filter.html#a1d8451e5c2f98d4b6b5bab67dc3590b1", null ],
+    [ "coeffs", "class_synth_lab_1_1_low_shelf_filter.html#aee43fd89d03166da1ce0baf5955b61b7", null ],
+    [ "fc", "class_synth_lab_1_1_low_shelf_filter.html#a3a76354f7400db59ba7ffc2abf8e2f50", null ],
+    [ "sampleRate", "class_synth_lab_1_1_low_shelf_filter.html#ad0c233cbd4adf855abf20ed5221b672d", null ],
+    [ "state", "class_synth_lab_1_1_low_shelf_filter.html#aa1ae91d5148a231aa434a1a030a9ca7d", null ]
+];

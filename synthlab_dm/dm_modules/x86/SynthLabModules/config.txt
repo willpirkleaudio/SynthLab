@@ -1,0 +1,11 @@
+kDMBuild = true
+kDualMonoFilters = false
+kHalfSampleSet = false
+kAnalogFGNFilters = true
+kParamSmoothing = true
+
+
+
+
+
+

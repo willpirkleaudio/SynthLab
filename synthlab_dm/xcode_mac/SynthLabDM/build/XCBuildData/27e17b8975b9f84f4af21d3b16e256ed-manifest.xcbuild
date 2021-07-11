@@ -1,0 +1,18 @@
+client:
+  name: basic
+  version: 0
+  file-system: default
+
+targets:
+  "": ["<all>"]
+
+commands:
+  "<all>": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--end>","<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--immediate>","<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--modules-ready>"],"outputs":["<all>"]}
+  "<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62-Debug-macosx-arm64-x86_64-stale-file-removal>": {"tool":"stale-file-removal","expectedOutputs":[],"roots":["/tmp/SynthLabDM.dst","/Users/willpirkle/Documents/ALL_SDK/SynthLab_SDK/synthlab_dm/xcode_mac/SynthLabDM/build","/Users/willpirkle/Documents/ALL_SDK/SynthLab_SDK/synthlab_dm/xcode_mac/SynthLabDM/build"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62-Debug-macosx-arm64-x86_64-stale-file-removal>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--begin-compiling": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62-Debug-macosx-arm64-x86_64-stale-file-removal>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--begin-compiling>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--end": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--entry>","<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--phase0-copy-files>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--end>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--entry": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62-Debug-macosx-arm64-x86_64-stale-file-removal>","<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--begin-compiling>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--entry>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--immediate": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62-Debug-macosx-arm64-x86_64-stale-file-removal>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--immediate>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--modules-ready": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--begin-compiling>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--modules-ready>"]}
+  "Gate target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--phase0-copy-files": {"tool":"phony","inputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--start>","<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--begin-compiling>"],"outputs":["<target-ALL_BUILD-c828f7100d28c5e0cce00743671b886bf007f40fb1a1af0051bcf5ec388bac62--phase0-copy-files>"]}
+

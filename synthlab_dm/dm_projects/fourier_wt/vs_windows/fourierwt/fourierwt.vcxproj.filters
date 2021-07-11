@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="module_core">
+      <UniqueIdentifier>{5f824dcb-6d05-4bc5-aa2d-f0eef81907ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk_files">
+      <UniqueIdentifier>{21bcf5bc-38e1-4bfa-8c09-60e51461e005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\synthlabcore.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\synthlabdll.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk_files\basiclookuptables.cpp">
+      <Filter>sdk_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\sdk_files\synthbase.cpp">
+      <Filter>sdk_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\synthlabcore.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\synthlabdll.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\basiclookuptables.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\bleptables.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\dynamictablesource.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\sinetablesource.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthbase.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthconstants.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthfunctions.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthlabparams.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\sdk_files\synthstructures.h">
+      <Filter>sdk_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

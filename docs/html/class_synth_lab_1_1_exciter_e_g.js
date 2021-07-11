@@ -1,0 +1,25 @@
+var class_synth_lab_1_1_exciter_e_g =
+[
+    [ "ExciterEG", "class_synth_lab_1_1_exciter_e_g.html#acefab68311a38cf0c0e84b9a2cddf40b", null ],
+    [ "~ExciterEG", "class_synth_lab_1_1_exciter_e_g.html#adb069585a5223d034540882b6127bba5", null ],
+    [ "calcAttackCoeff", "class_synth_lab_1_1_exciter_e_g.html#ace293399495e5aaa3f41a4ac1a2fddf0", null ],
+    [ "calcReleaseCoeff", "class_synth_lab_1_1_exciter_e_g.html#a1a20f2e27265e8af3008936225383f60", null ],
+    [ "render", "class_synth_lab_1_1_exciter_e_g.html#a90ffbdef048d4ffbfa8c527e279eba34", null ],
+    [ "reset", "class_synth_lab_1_1_exciter_e_g.html#ab0319f4e40964b8a6f6005b68b3e710d", null ],
+    [ "setParameters", "class_synth_lab_1_1_exciter_e_g.html#a856b9bfad328478a20742333c03499b2", null ],
+    [ "startEG", "class_synth_lab_1_1_exciter_e_g.html#ad602edfc5dc81e139e837ce867ba192c", null ],
+    [ "attackCoeff", "class_synth_lab_1_1_exciter_e_g.html#a2e3eea14c7f80b0478ecc82611c831c6", null ],
+    [ "attackOffset", "class_synth_lab_1_1_exciter_e_g.html#aaafaa35982925c36149150e9a8a6363d", null ],
+    [ "attackTCO", "class_synth_lab_1_1_exciter_e_g.html#a83e3a9735b3aec15bfcf80b44a574ac7", null ],
+    [ "attackTime_mSec", "class_synth_lab_1_1_exciter_e_g.html#a79f2e3bf882b14975201798219fe299b", null ],
+    [ "envelopeOutput", "class_synth_lab_1_1_exciter_e_g.html#a3a40666f6d15b99af159f4de6ec90fdd", null ],
+    [ "holdTime_mSec", "class_synth_lab_1_1_exciter_e_g.html#aa946c4333a6804573c52f2de008cf925", null ],
+    [ "holdTimer", "class_synth_lab_1_1_exciter_e_g.html#ab57d3b9eab141beac52db5dcbc87fd95", null ],
+    [ "noteOn", "class_synth_lab_1_1_exciter_e_g.html#a2d0de8f4e5933a19d5da2116c692a13b", null ],
+    [ "releaseCoeff", "class_synth_lab_1_1_exciter_e_g.html#ab2c00cce78bb401adfc713af8434e08f", null ],
+    [ "releaseOffset", "class_synth_lab_1_1_exciter_e_g.html#a9e40da6f6d9861adb8c5357376311bef", null ],
+    [ "releaseTCO", "class_synth_lab_1_1_exciter_e_g.html#aa61b6a196eb3781b56995ce913eb5c66", null ],
+    [ "releaseTime_mSec", "class_synth_lab_1_1_exciter_e_g.html#a2e97b5a75bc6404df7efae6ce58731c6", null ],
+    [ "sampleRate", "class_synth_lab_1_1_exciter_e_g.html#a6378368c506521f9c92b6d8a3f99c66a", null ],
+    [ "state", "class_synth_lab_1_1_exciter_e_g.html#ae81c3f6919e98e42ca581fdf16e4a0da", null ]
+];
