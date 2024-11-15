@@ -21,7 +21,7 @@ namespace SynthLab
 	\class KSOscillator
 	\ingroup SynthModules
 	\brief
-	Physical modeling oscillator fearuring Karplus-Strong plucked string algorithm
+	Physical modeling oscillator featuring Karplus-Strong plucked string algorithm
 	- loads and supports up to NUM_MODULE_CORES (4) cores
 	- it is mainly a wrapper/container for the module cores that do the acutal processing/rendering.
 
